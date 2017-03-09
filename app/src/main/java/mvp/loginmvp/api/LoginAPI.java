@@ -5,8 +5,8 @@ package mvp.loginmvp.api;
  */
 
 public class LoginAPI {
-    private final String userName = "surkhojb";
-    private final String password = "1234";
+    private final String userName = "username";
+    private final String password = "password";
 
     public boolean authAPI(String user,String pass){
         if(user.equals(userName) && pass.equals(password))
